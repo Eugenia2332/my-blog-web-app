@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <!-- links -->
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome to My Blog</h1>
+ 
+    <div class="container">
+        <a href="/create" class="button type--A">
+            <div class="button__line"></div>
+            <div class="button__line"></div>
+            <span class="button__text">CREATE</span>
+            <div class="button__drow1"></div>
+            <div class="button__drow2"></div>
+        </a>
+    </div>
+
+    <ul>
+        <% posts.forEach(post => { %>
+            <li><a href="/post/<%= post.id %>"><%= post.title %></a></li>
+        <% }); %>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-text-stroke: 1px black;
+    background-color: #F9F9E0;
+    color: #324644;
+    display: grid;
+    background-color: #343a40;
+    background-color: #D6FFF6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23d8c4d3' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%239d383b' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c4a4bd' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23a9757c' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23bc9cb7' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%238b284c' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23ab91a8' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23c293a7' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23967895' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a86590' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ae93af' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%238d638c' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+/* Header styles */
+h1 {
+    font-family: 'DM Serif Display';
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5%;
+    color: #52848b;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-shadow:  2px 2px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+				
+
+}
+
+  
+.container {
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+    display: block;
+    position: relative;
+    border: solid 3px #6e7491;
+    padding: 40px 60px;
+    max-width: 800px;
+    width: 50%;
+    margin: 70px auto 0;
+    font-size: 17px;
+    line-height: 28px;
+    transform: rotate(-1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+  }
+  
+  .container:hover {
+    transform: rotate(1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .border {
+    position: absolute;
+    transition: all 0.13s ease-in;
+  }
+  
+  .border:before,
+  .border:after {
+    color: #515d9c;
+    font-size: 15px;
+    position: absolute;
+  }
+ 
+  
+
+
+  
